@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-md-6 offset-md-3 mb-3" *ngFor="let user of userArr">
+    <mat-card class="mat-elevation-z8">
+      <mat-card-header>
+        <mat-card-title>{{ user.username }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Name:{{ user.name }}</p>
+        <p>Email: {{ user.email }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  height: 300px;
+}
+
+/* Category Cards */
+.category-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.category-card:hover {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.03);
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

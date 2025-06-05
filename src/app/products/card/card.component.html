@@ -1,0 +1,12 @@
+<mat-card class="mat-elevation-z8">
+  <div class="category">
+    <div class="card">
+      <img [src]="prodobj.images" alt="" />
+    </div>
+    <div class="card-detail m-1">
+      <mat-card-subtitle>{{ prodobj.category }}</mat-card-subtitle>
+      <p>{{ prodobj.title }}</p>
+      <h4 class="text-danger">{{ prodobj.total_price }}</h4>
+    </div>
+  </div>
+</mat-card>

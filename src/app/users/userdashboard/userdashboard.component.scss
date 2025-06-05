@@ -1,0 +1,30 @@
+/* Parent container spacing */
+.custom-list {
+  margin-top: 20px;
+}
+
+/* Styling each category item */
+.category-item {
+  font-size: 16px;
+  font-weight: 500;
+  color: #343a40;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem; /* Bootstrap 4 friendly rounded corners */
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effects */
+.category-item:hover {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Optional: active link highlight using routerLinkActive */
+.category-item.active {
+  background-color: #0056b3;
+  color: #fff;
+  font-weight: bold;
+}

@@ -1,0 +1,26 @@
+<div class="row mt-5">
+  <div class="col-md-4 custom-list">
+  <ul class="list-group">
+    <li
+      class="list-group-item category-item"
+      *ngFor="let catagory of caragaryArr"
+      [routerLink]="catagory.category"
+      [queryParams]="{ category: catagory.category }"
+    >
+      {{ catagory.category }}
+    </li>
+  </ul>
+</div>
+  <!-- <div class="col-md-4">
+    <ul class="list-group">
+      <li class="list-group-item" [queryParams]="{category:catagory.category}" [routerLink]=" catagory.category" *ngFor="let catagory of caragaryArr">
+        {{ catagory.category }}
+      </li>
+    </ul>
+  </div> -->
+  <div class="col-md-8">
+    <div class="row">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
